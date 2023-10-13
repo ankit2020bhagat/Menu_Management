@@ -1,0 +1,39 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-image: url("images.jpg");
+}
+.dish-img {
+  /* border: 1px solid black; */
+  width: 348px;
+  height: 250px;
+
+}
+.dish-style {
+  /* border: 2px solid black; */
+  width: 350px;
+  height: 450px;
+  display: inline-grid;
+  justify-content: center;
+}
+.dish-style h4{
+  float: left;
+}
+.checked {
+  color: orange;
+}
+
+.rating {
+  display: block;
+}
+.price {
+  float: left;
+  padding-left: 50px;
+  padding-right: 100px;
+}
+/* .start {
+  float: right;
+} */
+
+.dish-style button{
+  margin-left: 25%;
+}
